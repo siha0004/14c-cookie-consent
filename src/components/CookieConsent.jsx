@@ -2,7 +2,7 @@ import Button from "./Button";
 import { LiaCookieBiteSolid } from "react-icons/lia";
 import { MdClose } from "react-icons/md";
 
-const CookieCard = () => {
+const CookieConsent = () => {
   return (
     <article className="flex flex-col w-64 bg-black px-7 py-6 rounded-2xl m-5">
       <div className="flex justify-between	">
@@ -10,9 +10,9 @@ const CookieCard = () => {
         <MdClose className="text-white" />
       </div>
       <p className=" text-white text-xl font-medium mt-14">We use cookies to improve your user experience.</p>
-      <Button></Button>
+      <Button text="I love Cookies"></Button>
     </article>
   );
 };
 
-export default CookieCard;
+export default CookieConsent;
