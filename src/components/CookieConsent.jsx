@@ -19,9 +19,7 @@ const CookieConsent = () => {
           </button>
         </header>
         <p className=" text-white dark:text-black text-xl font-medium mt-14">We use cookies to improve your user experience.</p>
-        <button onClick={() => setisCookieAccepted(!isCookieAccepted)} className="bg-white dark:bg-black rounded-lg px-12 py-2 mt-5">
-          I love Cookies
-        </button>
+        <Button text="I love cookies" isCookieAccepted={isCookieAccepted} setisCookieAccepted={setisCookieAccepted}></Button>
       </article>
     )
   );
